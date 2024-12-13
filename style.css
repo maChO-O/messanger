@@ -20,5 +20,30 @@ html {
     box-sizing: inherit;
 } 
 
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
 
+aside {
+    width: 25vw;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.top__menu {
+    height: 55px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    
+}
+.hero {
+    
+}
 
+.search__bar {
+    height: 40px ;
+    flex: 1;
+    background-color: rgb(198, 211, 211);
+}
